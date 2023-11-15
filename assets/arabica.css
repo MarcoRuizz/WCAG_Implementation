@@ -1,0 +1,253 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Cormorant+Garamond:ital,wght@0,500;0,600;1,300&family=Forum&family=Playfair+Display:ital,wght@0,700;1,500&family=Sulphur+Point&display=swap");
+
+body {
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: "Cormorant Garamond", serif;
+}
+
+.header {
+  font-family: "Playfair Display", serif;
+  background-image: url(../src/coffee.jpg);
+  color: #faedcd;
+  text-align: center;
+}
+
+h1 {
+  font-size: 80px;
+}
+.titulo {
+  margin-bottom: 0;
+}
+.subtitulo {
+  margin-top: 0;
+  margin-bottom: 100px;
+  font-size: 40px;
+}
+.main {
+  flex-grow: 1;
+  background-color: #e9edc9;
+}
+
+h3 {
+  font-family: "Playfair Display", serif;
+  font-size: 30px;
+  color: #212529;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+h4 {
+  font-family: "Playfair Display", serif;
+  font-size: 25px;
+  color: #212529;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.footerH4 {
+  font-family: "Playfair Display", serif;
+  font-size: 25px;
+  color: #faedcd;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+h5 {
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+  color: #212529;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+
+div {
+  margin: 0px;
+  padding: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+p,
+li {
+  font-size: 22px;
+  color: #212529;
+  font-family: "Forum", serif;
+  text-align: justify;
+  padding: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.imgVari {
+  float: right;
+  margin-bottom: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 270px;
+}
+
+.imgCult {
+  float: left;
+  margin-bottom: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 280px;
+  overflow: auto;
+}
+
+.footer {
+  font-size: 22px;
+  color: #faedcd;
+  font-family: "Forum", serif;
+  text-align: justify;
+  flex-grow: 1;
+  background-color: #382917fa;
+  text-align: center;
+  text-decoration: none;
+}
+.caracteristicas {
+  background-color: #fefae0;
+}
+.cultivacion {
+  background-color: #e9edc9;
+}
+.varietales {
+  background-color: #ccd5ae;
+}
+
+/* nav bar */
+
+nav {
+  background-color: #382917fa;
+  text-align: center;
+}
+.navUL {
+  list-style: none;
+  padding: 0;
+}
+.navIL {
+  display: inline;
+  margin: 0 20px;
+  font-size: 22px;
+  color: #faedcd;
+  font-family: "Forum", serif;
+}
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: #faedcd;
+  font-family: "Forum", serif;
+}
+
+/* styles marco */
+.text-center {
+  text-align: center;
+}
+
+.images {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 30px;
+}
+
+.benefitImages {
+  width: 250px;
+  height: 200px;
+}
+
+.link {
+  color: blue;
+  text-decoration: underline;
+}
+
+table {
+  width: 90%;
+  border-collapse: collapse;
+  margin: 20px auto; /* Centra la tabla y agrega margen superior e inferior */
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 12px; /* Aumenta el espacio interno de las celdas */
+  text-align: left;
+}
+
+tr:hover {
+  background-color: #f5f5f5;
+}
+
+form {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Estilos para el Formulario de Contacto */
+#contact-form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+#contact-form label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+#contact-form input,
+#contact-form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+}
+
+#contact-form button {
+  background-color: #333;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+}
+
+#contact-form button:hover {
+  background-color: #555;
+}
+
+#contact-form select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+}

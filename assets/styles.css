@@ -1,0 +1,238 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+header {
+  background-color: #2c3e50;
+  color: #546d74;
+  text-align: center;
+  padding: 30px;
+  height: 150px;
+  background-image: url("/src/Decorative.avif");
+  background-size: cover;
+  background-position: center;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+section {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+p {
+  text-align: justify;
+}
+
+p,
+ul,
+table {
+  line-height: 1.8;
+}
+
+a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #2980b9;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th,
+td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #bdc3c7;
+}
+
+form {
+  max-width: 400px;
+  margin:ul
+   20px auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  color: #2c3e50;
+}
+
+input {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid #bdc3c7;
+  border-radius: 8px;
+}
+
+button {
+  background-color: #e74c3c;
+  color: #fff;
+  padding: 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #c0392b;
+}
+
+video {
+  max-width: 100%;
+  border-radius: 12px;
+  margin-top: 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #2c3e50;
+  color: #ecf0f1;
+}
+
+.text-white {
+  color: white;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.images {
+  width: 200px;
+  height: 200px;
+}
+
+.benefitImages {
+  width: 250px;
+  height: 200px;
+}
+
+.imagesBig {
+  width: 400px;
+  height: 400px;
+}
+
+.boton-volver {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.boton-volver:hover {
+  background-color: #246a99;
+  color: white;
+}
+
+/* Estilos del Navbar */
+.navbar {
+  background-color: #333; /* Color de fondo del navbar */
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .logo img {
+  width: 40px; /* Ajusta el tamaño del logo según sea necesario */
+  height: auto;
+  margin-right: 10px;
+}
+
+.navbar .logo span {
+  color: white; /* Color del texto del logo */
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: white; /* Color de los enlaces del navbar */
+  font-weight: bold;
+  font-size: 1.2em;
+  transition: color 0.3s ease; /* Efecto de transición en el color al pasar el ratón */
+}
+
+.nav-links li a:hover {
+  color: #ffc107; /* Cambia el color al pasar el ratón */
+}
+
+/* Estilos para el Formulario de Contacto */
+#contact-form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+#contact-form label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+#contact-form input,
+#contact-form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+}
+
+#contact-form button {
+  background-color: #333;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+}
+
+#contact-form button:hover {
+  background-color: #555;
+}
+
+#contact-form select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+}
